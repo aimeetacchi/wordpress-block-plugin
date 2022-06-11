@@ -1,0 +1,27 @@
+.plugin-edit-block {
+    padding: 20px;
+    border-radius: 2px;
+    border:1px solid #34aaf8;
+    background-color: #9cd2f7;
+
+    .mark-as-correct {
+        color: #fce76f;
+        position: relative;
+        top: -3px;
+        transition: transform 0.3s ease-out;
+
+        &:hover {
+           transform: scale(1.25) rotate(12deg);
+        }
+    }
+
+    .deleteBtn {
+        color: #ff0000;
+        position: relative;
+        top: -5px;
+
+        &:hover {
+            color: #c20000;
+        }
+    }
+}
